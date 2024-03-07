@@ -1,0 +1,347 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="css/Product.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/etiem.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <title>product</title>
+    </head>
+    <body>          
+        <nav class="navbar">
+        </nav>
+<section class="product-details"> 
+    <div class="image-slider">
+        <div class="product-images">
+            <img src="img/product image 1.png" class="active" alt="">
+            <img src="img/product image 2.png"  alt="">
+            <img src="img/product image 3.png"  alt="">
+            <img src="img/product image 4.png"   alt="">
+        </div>
+    </div>
+    <div class="details">
+         <h2 class="product-brand">calvin klein</h2>
+         <p class="product-short-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         <span class="product-price">Price: $99</span>
+         <span class="product-actual-price"> $200</span>
+         <span class="product-discount">( 50% off )</span> 
+         <p class="product-sub-heading">select size</p>
+         <input type="radio" name="size" value="s" checked hidden id="s-size">
+         <label for="radio" class="size-radio-btn " >s</label>
+         <input type="radio" name="size" value="m" hidden id="m-size">
+         <label for="m-size" class="size-radio-btn check " >m</label>
+         <input type="radio" name="size" value="l" hidden id="l-size">
+         <label for="l-size" class="size-radio-btn ">l</label>
+         <input type="radio" name="size" value="xl" hidden id="xl-size">
+         <label for="xl-size" class="size-radio-btn " >xl</label>
+         <input type="radio" name="size" value="xxl" hidden id="xxl-size" >
+         <label for="xxl-size" class="size-radio-btn " >xxl</label>
+         <button class="btn cart-btn" >add to cart</button>
+         <button class="btn">add to wishlist</button>
+    </div>
+</section>    
+ <!-- details about clothing  -->
+ <br><br><br>
+ <section class="detail-des">
+    <h2 class="heading">description</h2>
+    <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ......
+        Clothing is any item worn on the body. It is typically made of fabrics or textiles, but over time it has included garments made from animal skin and other thin sheets of materials and natural products found in the environment, put together.
+
+Clothing is used for a variety of purposes, including:
+
+Protection: Clothing can protect the body from the elements, such as heat, cold, rain, snow, and wind. It can also protect the body from injury, such as cuts, scrapes, and bruises.
+Modesty: Clothing can be used to cover the body and protect modesty. This is especially important in cultures where there are strict norms about what is considered appropriate to wear.
+Expression: Clothing can be used to express personal style and identity. It can also be used to communicate social status, religious beliefs, and political views.
+Function: Clothing can also be designed for specific functions, such as workwear, sportswear, and protective gear.
+Clothing can be made from a variety of materials, including natural fibers (such as cotton, wool, and silk) and synthetic fibers (such as polyester, nylon, and rayon). It can also be made from a combination of natural and synthetic fibers.
+
+Clothing is typically constructed using a variety of sewing techniques. However, there are also many other ways to construct clothing, such as weaving, knitting, and crocheting.
+
+Clothing is available in a wide variety of styles, colors, and sizes. It can be purchased from a variety of retailers, including department stores, specialty stores, and online retailers.
+
+Here are some common types of clothing:
+
+Tops: Tops include shirts, blouses, t-shirts, sweaters, and jackets.
+Bottoms: Bottoms include pants, shorts, skirts, and dresses.
+Outerwear: Outerwear includes coats, jackets, and sweaters.
+Accessories: Accessories include hats, scarves, gloves, belts, and jewelry.
+Clothing can be worn in a variety of combinations to create different looks. For example, a person might wear a button-down shirt and slacks to work, or a t-shirt and jeans to a casual event.
+
+Clothing is an important part of human culture and society. It is used for a variety of purposes, including protection, modesty, expression, and function. Clothing is also a way for people to express their personal style and identity.
+    </p>
+</section>
+    <br>
+    <br>
+    <br>
+    <br>
+  <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+  <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+   <!-- sction 1 -->
+
+      <section id="men-tshirt-products"></section>
+      <section class="collection-container"></section>
+  
+  <script>
+    getProducts('men-tshirt').then(data => createProductSlider(data, '#men-tshirt-products', 
+    'men-tshirt'));
+      
+  </script>
+  
+      <section>
+  <h2 class="section">Section Men</h2>
+  <hr>
+  <br><br>
+ 
+  <div class="product-container">
+    
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.14 AM.jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.12 AM.jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.12 AM.jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.13 AM.jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM.jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h2 class="product-brand">brand</h2>
+          <p class="product-short-des">a short line about the cloth..</p>
+          <span class="price">$20</span><span class="actual-price">$40</span>
+      </div>
+    </div>
+    <br>
+  </section>
+
+  <!-- <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <br><br>
+      <div class="container">
+        <div class="product-container2">
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.14 AM.jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div>
+              <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.12 AM.jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div>
+              <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.12 AM.jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div>
+              <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.13 AM.jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div>
+              <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM.jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div><div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div><div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div><div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div><div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+          </div>
+          <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">50% off</span>
+                  <img src="img/WhatsApp Image 2023-09-19 at 12.02.15 AM (2).jpeg" class="product-thumb" alt="">
+                  <button class="card-btn">add to whislist</button>
+              </div><div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+
+          </div>
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">OK</button>
+
+        </div>
+      </div>
+    </form> -->
+
+<section class="container-for-card-slider"></section>
+
+<footer>
+    <div class="footer-content">               
+    </div>
+</footer>  
+<script src="./JS/home.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/Product.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>

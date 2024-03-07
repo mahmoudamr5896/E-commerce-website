@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in page</title>
+    <link rel="stylesheet" href="CSS/form.css" />
+    <link rel="stylesheet" href="./CSS/form.css" />
+  </head>
+
+  <body>
+    <img style="top: 38%" src="img/loader.gif" class="loader" alt="" />
+
+    <div class="container">
+      <img src="./img/dark-logo.png" class="logo" alt="" />
+      <div>
+        <input
+          type="email"
+          autocomplete="off"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <input
+          type="password"
+          autocomplete="off"
+          id="password"
+          placeholder="password"
+        />
+        <button class="submit-btn">log in</button>
+      </div>
+      <a href="./signup.html" class="link">Don't have an account? creat one</a>
+    </div>
+
+    <div class="alert-box">
+      <img src="img/error.png" class="alert-img" alt="" />
+      <p class="alert-msg">Error message</p>
+    </div>
+    <script src="./JS/form.js"></script>
+    <script src="./JS/Token.js"></script>
+  </body>
+</html>

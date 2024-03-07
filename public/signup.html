@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./CSS/form.css" />
+    <meta charset="UTF-8" />
+    <title>signup</title>
+  </head>
+  <body>
+    <img src="img/loader.gif" class="loader" alt="" />
+    
+    <div class="container">
+      <img src="./img/dark-logo.png" class="logo" alt="" />
+      <div>
+        <input type="text" autocomplete="off" id="name" placeholder="Full Name" />
+        <input type="email" autocomplete="off" id="email" placeholder="Email" />
+        <input
+          type="password"
+          autoComplete="off"
+          id="password"
+          placeholder="Password"
+        />
+        <input type="text" autocomplete="off" id="number" placeholder="mobile number" />
+        <input type="checkbox" class="checkbox" id="terms-and-cond"/>
+        <label for="terms-and-cond"
+          >agree to our <a href="">terms and conditions</a></label
+        >
+        <br />
+        <input type="checkbox" class="checkbox" id="notification" />
+        <label for="notification"
+          >recieve upcoming offers and events email</a></label
+        >
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+        <div class="google-btn">
+          <div class="google-icon-wrapper">
+            <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+
+          </div>
+          <span class="btn-text"><b>Sign in with google</b></span>
+
+        </div>
+
+        <button class="submit-btn">create account</button>
+      </div>
+      <a href="/login.html" class="link">already have an account? log in here</a>
+    </div>
+
+    <div class="alert-box">
+        <img src="img/error1.png" class="alert-img" alt="">
+        <p class="alert-msg">Error message</p>
+    </div>
+<script src="./JS/form.js"></script>
+<script src="./JS/Token.js"></script>
+  </body>
+</html>
